@@ -1,0 +1,36 @@
+nav { background-color: #4da6ff;
+	  border: 2px solid black;
+	  border-radius: 25px;
+	  top: -5px;
+      margin-bottom: 50px;
+	  padding: 20px;
+	  width: 100%;
+	  text-align: center;
+	  
+	}
+nav:hover { background-color: #ddd; }
+
+
+body{overflow-x:hidden;}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr td { font-size: 1.2em;
+		font-style:italic;}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+#eu { width:5%;
+	  height:5%;
+vertical-align: bottom-text;}

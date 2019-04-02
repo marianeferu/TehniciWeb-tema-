@@ -1,0 +1,86 @@
+#sigla
+	{ width: 15%;
+	 height: auto;
+	}
+body{overflow-x:hidden;
+	background-color: lightblue;
+	width:1920px;
+	height:1080px;}
+
+f{	color:white;
+		position:absolute;
+		max-height:50px;
+		max-width:50px;
+		text-align:top;
+	}
+	
+	
+	
+ul {
+  list-style-type: none; //sa nu le puna ca in ul
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#0033cc;
+  text-align:center;
+  
+}
+
+.mystyle {
+  width: 300px;
+  height: 50px;
+  background-color: green;
+  font-size: 25px;
+}
+
+
+li a {
+  float: left;
+  display: inline-block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none; //sa nu se mai vada linia de sub link
+}	
+li a:hover { background-color: #ddd; }
+
+ol{
+list-style: square inside url("c.jpg");
+}
+
+
+#buttonload {
+ 
+  width: auto;
+  height: 40px;
+  background: lightslategrey;
+  animation-name: sare;
+  animation-duration: 4s;
+  -webkit-transition: width 2s;
+   transition: width 2s;
+   animation-iteration-count: infinite;
+  
+}
+#buttonload:hover {
+  width: 100px;
+}
+
+@keyframes sare {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+   
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-20px);}
+  }
+
+#img1 {
+	  
+  position: absolute;
+  top:50px;
+  z-index: +2;
+}
+.flex-container {
+  display: flex;
+
+	
+  flex-direction: column;
+
+}

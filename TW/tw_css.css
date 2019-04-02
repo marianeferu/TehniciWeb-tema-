@@ -1,0 +1,42 @@
+#sigla
+	{ width: 15%;
+	 height: auto;
+	}
+
+.h1_center
+	{ text-align: center;
+	  font-size: 1.5 em;
+	}
+	
+body{overflow-x:hidden;}
+
+h3 { display:inline-block;}
+
+nav { background-color: #4da6ff;
+	  border: 2px solid black;
+	  border-radius: 25px;
+	  top: -5px;
+      margin-bottom: 50px;
+	  padding: 20px;
+	  width: 100%;
+	  text-align: center;
+	}
+	
+nav:hover { background-color: #ddd; }
+	 
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+		
+    }
+	p{visibility: hidden;}
+	article{visibility: hidden;}
+	ol{visibility: hidden;}
+	nav{visibility: hidden;}
+	h3{visibility: hidden;}
+	#sigla{	width: 50%;
+			height: 10%;}
+}
+	 
